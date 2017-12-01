@@ -1,0 +1,5 @@
+*.pyc
+
+/dist
+/yenviron.egg-info
+/.idea
