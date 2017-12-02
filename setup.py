@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 README = io.open(os.path.join(BASE_DIR, 'README.md'), encoding='utf8').read()
 
-version = '0.1'
+version = '0.2'
 author = 'Javier Matos Odut'
 description = """
 Yenviron allows to use 12factor inspired environment variables to configure

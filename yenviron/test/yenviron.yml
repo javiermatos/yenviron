@@ -1,0 +1,29 @@
+---
+
+INTEGER_1: 1
+STRING_1: '1'
+FOLLOW_1: INTEGER_1
+
+LIST_INTEGER:
+  - 1
+  - 2
+  - 3
+
+LIST_STRING:
+  - alice
+  - bob
+  - man-in-the-middle
+
+
+DICTIONARY:
+  KEY_A: 'A'
+  KEY_B: B
+  KEY_C: 3
+  KEY_LIST:
+    - 1
+    - 2
+    - 3
+  KEY_DICTIONARY:
+    KEY_A: 1
+    KEY_B: 2
+    KEY_C: 3
