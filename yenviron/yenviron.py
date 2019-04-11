@@ -36,7 +36,7 @@ class Yenviron(object):
 
 
 def yenviron_parse(stream):
-    return Yenviron(yaml.load(stream))
+    return Yenviron(yaml.load(stream, Loader=yaml.FullLoader))
 
 
 def yenviron_read(file):
